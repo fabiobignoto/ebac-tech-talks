@@ -4,7 +4,6 @@
     background-image: url(../images/fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
     position: relative;
 
     .container{
@@ -23,10 +22,14 @@
     }
 
     &__logo{
+        margin: auto;
+        display: block;
         height: 80px;
     }
 
     &__text {
+        text-align: center;
+
         font-size: 40px;
         font-weight: 900;
         margin: 64px 0;
