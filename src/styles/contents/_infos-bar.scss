@@ -1,3 +1,5 @@
+@use '../variables';
+
 .infos-bar{
     padding: 16px 24px;
     background-color: #fff;
@@ -12,14 +14,14 @@
         
 
         &__item{
-            color: #000;
+            color: variables.$textColorSecondary;
             font-size: 14px;
             font-weight: 400;
             line-height: 16.41px;
         }
 
         b{
-            color: #000;
+            color: variables.$textColorSecondary;
             font-size: 16px;
             font-weight: 800;
             line-height: 21.09px;
